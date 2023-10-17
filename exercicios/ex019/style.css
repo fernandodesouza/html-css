@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* em HTML vira ID  e em CSS vira #
+tudo que em HTML é class. em CSS é .(ponto)
+um id por pagina . nao pode ntro do mesmo docuento htnl.
+posso ter varias class no mesmo documento
+*/
+
+body {
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    color: rgb(22, 13, 75);
+
+}
+h1#principal {
+    text-align: center;
+    color: rgb(250, 250, 250);
+    background-color: blue;
+
+}
+h2 {
+    color: blue;
+}
+.basico{
+    color: brown;
+    font-weight:900;
+   
+}
+.intermediario{
+    color: rgb(5, 46, 46);
+    font-weight: 700;
+}
+.avancado{
+    color: chocolate;
+}
+.pragrafo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+.destaque{
+    background-color: bisque;
+}
