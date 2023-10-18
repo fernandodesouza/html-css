@@ -1,6 +1,42 @@
 @charset "UTF-8"
 
-.foto {
-    max-width: 300px;
-    max-height: 300px;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
 }
+
+body {
+    font-size: 100%;
+    background-color: rgb(7, 7, 27);
+    color: white;
+}
+header{
+    background-color: rgb(59, 59, 116);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    
+}
+.cabecalho-imagem{
+    height: 200px;
+    border-radius: 500px ;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+.cabecalho-menu-item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
