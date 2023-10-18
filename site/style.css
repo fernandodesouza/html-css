@@ -1,11 +1,6 @@
 @charset "UTF-8"
 
-body >header {
-    display: inline;
-}
-nav > a {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    text-decoration: none;
-
+.foto {
+    max-width: 300px;
+    max-height: 300px;
 }
