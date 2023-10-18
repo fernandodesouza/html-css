@@ -1,9 +1,11 @@
 @charset "UTF-8"
 
-
+body >header {
+    display: inline;
+}
 nav > a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: block;
+    display: flex;
     text-decoration: none;
 
 }
