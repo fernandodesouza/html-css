@@ -1,7 +1,9 @@
 @charset "UTF-8"
 
-.foto {
-    
-    width: 300px;
-    border-radius: 20px;
+
+nav > a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    text-decoration: none;
+
 }
