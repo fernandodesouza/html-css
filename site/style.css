@@ -31,22 +31,23 @@ header{
     flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
-    flex-wrap: wrap;
-    padding: .8rem;
-      
+    flex-wrap: wrap;     
+}
+.div-header > h1 {
+    color: white;
+   font-weight: 900;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 .cabecalho{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px;
        
 }
-.cabecalho-imagem{
-    height: 150px;
-    border-radius: 1000px ;
-}
+
 .cabecalho-menu {
     width:auto;
     display: flex;
