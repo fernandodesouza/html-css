@@ -5,25 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 05-mudar tamanho da imagem</title>
     <style>
-        body{
+        body {
             height: 100vh;
-            background-color: black;
+           /* background-color: black;
             background-image: url(imagens/wallpaper003.jpg);
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+            background-attachment: fixed;*/
+            /* 
+        sobre shorthand - background seguindo essa ordem
+        color > image > position > repeat > size > attachement
+
+        */
+
+        background: black url('imagens/wallpaper003.jpg') no-repeat center center  fixed ;
+        background-size: cover;
         }
-        main{
+
+        main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 30px;
             border-radius: 20px;
             border: 1px solid black;
-            margin: auto;
-                      
+            margin: auto; 
+            
+            
 
+        
 
         }
+        
        
         
     </style>
@@ -32,7 +45,9 @@
 <body>
     <main>
         <h1>teste de tamanho de imagem </h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus dolore hic accusantium adipisci molestias ex reprehenderit ipsam eligendi tempore necessitatibus sit, fugiat voluptates beatae quia aliquam laboriosam voluptatem libero iste. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis aspernatur aut similique harum placeat fugit ut nesciunt, accusantium, delectus temporibus aperiam minima officia cumque rerum architecto dolore eum excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam sit in esse excepturi harum, asperiores expedita dolorum eum suscipit dignissimos velit, at ipsam, quibusdam dolor ex reiciendis repellat odio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus dolore hic accusantium adipisci molestias ex reprehenderit ipsam eligendi tempore necessitatibus sit, fugiat voluptates beatae quia aliquam laboriosam voluptatem libero iste. Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Necessitatibus veritatis aspernatur aut similique harum placeat fugit ut nesciunt, accusantium, delectus temporibus aperiam minima officia cumque rerum architecto dolore eum excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam sit in esse excepturi harum, asperiores expedita dolorum eum suscipit dignissimos velit, at ipsam, quibusdam dolor ex reiciendis repellat odio. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi laudantium quidem culpa? Esse aliquam, eum eveniet neque nobis porro repellendus dolorum? Tempora laboriosam, ea odit possimus quibusdam amet modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Cum quae eos quam dolores voluptate expedita facere dicta, praesentium libero nesciunt consequuntur unde ratione nisi necessitatibus deserunt, eaque debitis, ipsam quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias beatae voluptates ea ab incidunt, non, nisi doloremque cum nobis minus quos voluptate numquam placeat totam suscipit eligendi molestiae dolorem ducimus?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur culpa tenetur illo voluptas laboriosam beatae aperiam autem porro fugit nesciunt fuga repudiandae, harum velit, quae laborum id. Id, repellendus officiis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium eius corporis aperiam veritatis dolor, est possimus ea magnam facere cum perferendis, rerum cupiditate doloribus. Illo repellendus vel voluptatem architecto totam!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic aperiam harum illo illum modi porro ea corporis dolorem natus mollitia, quo facilis omnis ut, ratione ducimus perferendis laudantium! Nihil, assumenda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vel sint, magni suscipit saepe dolore laudantium quas at velit adipisci nostrum facilis mollitia accusantium voluptatibus accusamus qui enim dolor a!</p>
     </main>
 
 </body>
