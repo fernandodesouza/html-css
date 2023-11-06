@@ -31,3 +31,32 @@ a {
 a:hover{
     text-decoration: overline;
 }
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-left: 30px;
+}
+section.normal{
+    background-color: white;
+    color: black;
+
+}
+section.imagem{
+    background-color: rgb(0, 0, 0);
+    color:#fff;
+}
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(167, 164, 164, 0.103);
+   padding: 10px 20px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
