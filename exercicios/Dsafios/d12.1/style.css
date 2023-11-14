@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -27,8 +28,8 @@ html {
 
 }
 body {
-    background-color: var(--bg-color);
-    color: var(--tex-color);
+    background-color: var(--white-color);
+    color: var(--bg-color);
 
 }
 .header {
@@ -56,6 +57,12 @@ body {
     font-weight: 500;
     margin-right: 3.5rem;
 }
+.navbar a:hover{
+    background: transparent;
+    color: var(--bg-color);
+   
+
+}
 .navbar a.active::before {
     content:'';
     position: absolute;
@@ -66,3 +73,77 @@ body {
     background: white;
     text-decoration: underline;
 }
+section{
+    min-height: 100vh;
+    padding: 10rem 7% 2rem;
+}
+.home {
+    display: flex;
+    align-items: center;
+}
+.home .home-conteudo{
+    max-width: 54rem;
+}
+.home-conteudo h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: .3;
+}
+.home-conteudo h1 {
+    font-size: 5.5rem;
+    font-weight:700;
+    margin-bottom: .3rem;
+    
+}
+.home-conteudo p{
+    font-size: 1.6rem;
+    text-align: justify;
+    
+}
+
+.home-conteudo .social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    box-shadow: 0 .2rem .5rem var(--shadow-color));
+    color: var(--main-color);
+    font-size: 3rem;
+    margin: 2.5rem 1.5rem 3rem 0;
+
+}
+.home-conteudo .social-media a:hover{
+    background: transparent;
+    color: var(--bg-color);
+    border-color: var(--main-color);
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 1.2rem 2.8rem;
+    background: var(--main-color);
+    border-radius: .6rem;
+    box-shadow: 0 .2rem .5rem var(--shadow-color);
+    font-size: 1.6rem;
+    color: var(--white-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    border: .2rem solid transparent;
+    transform: .5s;
+}
+.btn:hover{
+    background: transparent;
+    color: var(--main-color);
+    border-color: var(--main-color);
+
+}
+
+
+    
+
