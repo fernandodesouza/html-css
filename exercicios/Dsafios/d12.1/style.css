@@ -38,10 +38,11 @@ body {
     left: 0;
     width: 100%;
     padding: 2rem 7%;
-    background-color: #005f8f;
+    background:transparent;
     display: flex;
     align-items: center;
     z-index: 100;
+    
 }
 .logo{
     font-size: 2rem ;
@@ -53,7 +54,7 @@ body {
 .navbar a {
     position: relative;
     font-size: 1.7rem;
-    color: #fdfdfd;
+    color:#754ef9;
     font-weight: 500;
     margin-right: 3.5rem;
 }
@@ -142,6 +143,17 @@ section{
     color: var(--main-color);
     border-color: var(--main-color);
 
+}
+
+.home .profissao-container .profissao-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 650px;
+    height: 650px;
+    background: #005f8f;
+    border-radius: 50%;
+    
 }
 
 
