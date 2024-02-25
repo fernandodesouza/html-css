@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas maiores</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color:gray;
+
+        }
+
+        thead,tfoot {
+            background-color: beige;
+            color: black;
+        }
+        caption {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            background-color: aqua;
+            padding: 10px;
+        }
+        .num {
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <table>
+        <caption>Listagem de passageiros</caption>
+        <Thead>
+            <tr>
+                <th scope="col" style="width: 200px;">Nome do passageiro</th>
+                <th scope="col" style="width: 200px;">Número do RG</th>
+            </tr>
+
+        </Thead>
+        <tbody>
+            <tr>
+                <td>Stéfany Fabiano da Silva</td>
+                <td>40161672-1</td>
+            </tr>
+            <tr>
+                <td>Elinete Maria Apolinario dos Santos Souza</td>
+                <td>18394329-6</td>
+            </tr>
+            <tr>
+                <td>Natalina de Jesus Capdevila Souza</td>
+                <td>20367831-X</td>
+            </tr>
+            <tr>
+                <td>Joaquim Batista de Souza</td>
+                <td>9898388-X</td>
+            </tr>
+            <tr>
+                <td>Fernando Nunes</td>
+                <td>999666555-2</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de passageiros </th>
+                <td class="num">14</td>
+            </tr>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>
